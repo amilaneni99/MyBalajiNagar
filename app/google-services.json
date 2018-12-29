@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "280466018350",
+    "firebase_url": "https://mybalajinagar-12190.firebaseio.com",
+    "project_id": "mybalajinagar-12190",
+    "storage_bucket": "mybalajinagar-12190.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280466018350:android:33f2fca118180c10",
+        "android_client_info": {
+          "package_name": "com.example.abhinav.mybalajinagar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280466018350-einp5back3tioabs7s9it6qthllr5ldl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhinav.mybalajinagar",
+            "certificate_hash": "5a2b540f9ed8bfecee9a94a4d79f003f8a8e098d"
+          }
+        },
+        {
+          "client_id": "280466018350-b93ig0hk3idqo15d3q6umm7k0qddpgbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ26hbz8jdzQO3I2-_WmUO_zZSxV1nIxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280466018350-b93ig0hk3idqo15d3q6umm7k0qddpgbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
