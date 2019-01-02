@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/nav_header"
     android:layout_width="match_parent"
-    android:layout_height="160dp"
+    android:layout_height="200dp"
     android:background="#FFF"
     android:clickable="true"
     android:focusable="true"
@@ -14,8 +14,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/nav_header_imageView"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:adjustViewBounds="false"
         android:cropToPadding="false"

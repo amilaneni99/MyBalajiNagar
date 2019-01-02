@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/sponsors"
-        android:title="Sponsors"/>
+        android:id="@+id/messages1"
+        android:icon="@drawable/ic_paper"
+        android:title="Messages"/>
     <item
-        android:id="@+id/faqs"
-        android:title="FAQs"/>
+        android:id="@+id/helplines1"
+        android:icon="@drawable/ic_phone"
+        android:title="Helplines"/>
     <item
-        android:id="@+id/aboutus"
-        android:title="Scratch Coupon"/>
+        android:id="@+id/fop1"
+        android:icon="@drawable/ic_police"
+        android:title="Friends of Police"/>
     <item
-        android:id="@+id/contact"
-        android:title="Contact Us"/>
+        android:id="@+id/complaints1"
+        android:icon="@drawable/complaint"
+        android:title="Complaints"/>
+    <item
+        android:id="@+id/events"
+        android:icon="@drawable/ic_diwali"
+        android:title="Events"/>
     <item
         android:id="@+id/signout"
+        android:icon="@drawable/ic_exit"
         android:title="Sign Out"/>
 </menu>
