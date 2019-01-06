@@ -4,15 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pattern"
     tools:context=".Messages">
 
-    <ListView
-        android:id="@+id/messageListView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:stackFromBottom="false"
-        android:divider="@android:color/transparent"
-        android:transcriptMode="alwaysScroll"
-        tools:listitem="@layout/item_message"/>
+        <ListView
+            android:id="@+id/messageListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:stackFromBottom="false"
+            android:transcriptMode="alwaysScroll"
+            tools:listitem="@layout/item_message" />
 
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progress"
+        android:visibility="visible" />
 </RelativeLayout>

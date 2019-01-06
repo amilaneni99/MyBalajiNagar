@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.Auth;
@@ -36,6 +37,7 @@ public class SignIn extends AppCompatActivity {
     FirebaseAuth mAuth;
     GoogleSignInClient mGoogleSignInClient;
     FirebaseAuth.AuthStateListener mAuthListener;
+    ProgressBar progressBar;
 
 
     @Override
@@ -45,6 +47,7 @@ public class SignIn extends AppCompatActivity {
         FirebaseApp.initializeApp(this);
 
         button = findViewById(R.id.sign_in_button);
+        progressBar = findViewById(R.id.progress1);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -67,6 +70,7 @@ public class SignIn extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                progressBar.setVisibility(View.VISIBLE);
                 signIn();
             }
         });
@@ -87,6 +91,7 @@ public class SignIn extends AppCompatActivity {
             if (result.isSuccess()){
                 GoogleSignInAccount account = result.getSignInAccount();
                 firebaseAuthWithGoogle(account);
+
             }
             else {
                 Toast.makeText(SignIn.this,"Auth Went Wrong",Toast.LENGTH_SHORT).show();
@@ -105,6 +110,7 @@ public class SignIn extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             FirebaseUser user = mAuth.getCurrentUser();
+                            progressBar.setVisibility(View.GONE);
 
                             Toast.makeText(SignIn.this, "User Signed In", Toast.LENGTH_SHORT).show();
                         } else {

@@ -1,9 +1,17 @@
 package com.example.abhinav.mybalajinagar;
 
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.AsyncTask;
 import android.support.annotation.NonNull;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -15,12 +23,15 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.lang.Thread.sleep;
+
 public class Messages extends AppCompatActivity {
     private FirebaseDatabase mFirebaseDatabase;
     private  DatabaseReference mMessagesDatabaseReference;
     private ChildEventListener mChildEventListener;
     private MessageAdapter mMessageAdapter;
     private ListView mMessageListView;
+    private ProgressBar progressBar;
     List<Message> messages = new ArrayList<>();
 
 
@@ -30,10 +41,16 @@ public class Messages extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messages);
 
-        mMessageListView = findViewById(R.id.messageListView);
 
+        ActionBar actionBar = getSupportActionBar();
+        assert actionBar!=null;
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setHomeAsUpIndicator(R.drawable.back);
+
+        mMessageListView = findViewById(R.id.messageListView);
         mFirebaseDatabase = FirebaseDatabase.getInstance();
         mMessagesDatabaseReference = mFirebaseDatabase.getReference().child("messages");
+        progressBar = findViewById(R.id.progress);
 
 
 
@@ -49,6 +66,8 @@ public class Messages extends AppCompatActivity {
     protected void onStart() {
 
         super.onStart();
+        progressBar.setVisibility(View.VISIBLE);
+
         mMessagesDatabaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -61,6 +80,7 @@ public class Messages extends AppCompatActivity {
                     Message message = messagesSnapshot.getValue(Message.class);
                     messages.add(message);
                 }
+                progressBar.setVisibility(View.GONE);
                 mMessageAdapter.notifyDataSetChanged();
                 mMessageAdapter = new MessageAdapter(Messages.this, R.layout.item_message, messages);
                 mMessageListView.setAdapter(mMessageAdapter);
@@ -73,4 +93,11 @@ public class Messages extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
+    }
+
 }

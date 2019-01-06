@@ -5,75 +5,84 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.CardView;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
-public class Helplines extends AppCompatActivity {
+public class Fragment_Monday extends Fragment {
+    View view;
+    CardView c1,c2,c3,c4,c5,c6;
 
-    CardView police,women_police,fop,fire;
+    public Fragment_Monday() {
 
+    }
+
+    @Nullable
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_helplines);
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        view = inflater.inflate(R.layout.monday_fragment,container,false);
 
-        police = findViewById(R.id.police);
-        women_police = findViewById(R.id.women_police);
-        fop = findViewById(R.id.fop);
-        fire = findViewById(R.id.fire);
-
-        ActionBar actionBar = getSupportActionBar();
-        assert actionBar!=null;
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setHomeAsUpIndicator(R.drawable.back);
-
-
-        police.setOnClickListener(new View.OnClickListener() {
+        c1 = view.findViewById(R.id.one);
+        c2 = view.findViewById(R.id.two);
+        c3 = view.findViewById(R.id.three);
+        c4 = view.findViewById(R.id.four);
+        c5 = view.findViewById(R.id.five);
+        c6 = view.findViewById(R.id.six);
+        c1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("04427972253");
+                String num = "9443689610";
+                call(num);
             }
         });
-        women_police.setOnClickListener(new View.OnClickListener() {
+        c2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 call("9524790780");
             }
         });
-        fop.setOnClickListener(new View.OnClickListener() {
+        c3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9444301200");
+                call("9524790780");
             }
         });
-        fire.setOnClickListener(new View.OnClickListener() {
+        c4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("044-27974064");
+                call("9524790780");
             }
         });
-    }
-
-    @Override
-    public boolean onSupportNavigateUp() {
-        finish();
-        return true;
+        c5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                call("9524790780");
+            }
+        });
+        c6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                call("9524790780");
+            }
+        });
+        return view;
     }
     private void call(String number) {
         try {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
             callIntent.setData(Uri.parse("tel:"+number));
-            ActivityCompat.requestPermissions(Helplines.this,
+            ActivityCompat.requestPermissions(getActivity(),
                     new String[]{Manifest.permission.CALL_PHONE},
                     1);
             checkCallPermission();
-            if (ActivityCompat.checkSelfPermission(Helplines.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
+            if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
 
                 //    ActivityCompat#requestPermissions
                 // here to request the missing permissions, and then overriding
@@ -91,7 +100,7 @@ public class Helplines extends AppCompatActivity {
     private boolean checkCallPermission()
     {
         String permission = Manifest.permission.CALL_PHONE;
-        int res = this.checkCallingOrSelfPermission(permission);
+        int res = getContext().checkCallingOrSelfPermission(permission);
         return (res == PackageManager.PERMISSION_GRANTED);
     }
 }
