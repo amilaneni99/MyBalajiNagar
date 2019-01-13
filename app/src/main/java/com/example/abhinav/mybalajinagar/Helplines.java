@@ -94,4 +94,9 @@ public class Helplines extends AppCompatActivity {
         int res = this.checkCallingOrSelfPermission(permission);
         return (res == PackageManager.PERMISSION_GRANTED);
     }
+    public void onBackPressed(){
+        Intent a = new Intent(this,Home.class);
+        startActivity(a);
+
+    }
 }

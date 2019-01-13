@@ -68,4 +68,9 @@ public class Complaints extends AppCompatActivity {
         finish();
         return true;
     }
+    public void onBackPressed(){
+        Intent a = new Intent(this,Home.class);
+        startActivity(a);
+
+    }
 }

@@ -1,5 +1,6 @@
 package com.example.abhinav.mybalajinagar;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
@@ -88,5 +89,10 @@ public class FOP extends AppCompatActivity {
     public boolean onSupportNavigateUp() {
         finish();
         return true;
+    }
+    public void onBackPressed(){
+        Intent a = new Intent(this,Home.class);
+        startActivity(a);
+
     }
 }

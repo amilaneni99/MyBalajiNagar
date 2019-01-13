@@ -14,7 +14,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="20dp"
-        android:src="@drawable/blg"
+        android:src="@drawable/blg1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
