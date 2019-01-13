@@ -5,6 +5,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+
 
 public class Members extends AppCompatActivity {
     TabLayout tabLayout;
@@ -36,4 +38,8 @@ public class Members extends AppCompatActivity {
         finish();
         return true;
     }
+    public void forceCrash(View view) {
+        throw new RuntimeException("This is a crash");
+    }
+
 }

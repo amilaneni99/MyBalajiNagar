@@ -2,15 +2,15 @@
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/drawer"
+    android:background="@drawable/pattern"
     tools:context=".Home">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/pattern"
         android:orientation="vertical"
         android:weightSum="10">
 
@@ -80,7 +80,7 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:layout_marginRight="15dp"
-                            android:src="@drawable/bell" />
+                            android:src="@drawable/ic_paper" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:layout_marginRight="15dp"
-                            android:src="@drawable/conversation" />
+                            android:src="@drawable/ic_phone" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -176,7 +176,7 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:layout_marginRight="15dp"
-                            android:src="@drawable/policeman" />
+                            android:src="@drawable/ic_police" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -245,12 +245,12 @@
     </LinearLayout>
 
     <android.support.design.widget.NavigationView
-        android:theme="@style/NavStyleDrawer"
         android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:theme="@style/NavStyleDrawer"
         app:headerLayout="@layout/nav_header"
-        android:layout_gravity = "start"
         app:menu="@menu/nav_menu">
 
     </android.support.design.widget.NavigationView>

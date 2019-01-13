@@ -67,8 +67,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_fop" />
-                            <entry key="sourceFile" value="D:\icons\earth.svg" />
+                            <entry key="outputName" value="ic_bg" />
+                            <entry key="sourceFile" value="C:\Users\Abhinav\Downloads\bg.svg" />
                           </map>
                         </option>
                       </PersistentState>

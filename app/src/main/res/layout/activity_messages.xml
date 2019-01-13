@@ -7,14 +7,14 @@
     android:background="@drawable/pattern"
     tools:context=".Messages">
 
-        <ListView
-            android:id="@+id/messageListView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:divider="@android:color/transparent"
-            android:stackFromBottom="false"
-            android:transcriptMode="alwaysScroll"
-            tools:listitem="@layout/item_message" />
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:stackFromBottom="false"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/item_message" />
 
     <ProgressBar
         android:id="@+id/progress"

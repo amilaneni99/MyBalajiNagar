@@ -20,7 +20,7 @@
         android:adjustViewBounds="false"
         android:cropToPadding="false"
         android:scaleType="centerCrop"
-        android:src="@drawable/bg" />
+        android:src="@drawable/blg1" />
 
     <TextView
         android:id="@+id/nav_header_textView"

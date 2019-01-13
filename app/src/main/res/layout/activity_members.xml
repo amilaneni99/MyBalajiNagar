@@ -4,28 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pattern"
     tools:context=".Members">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/pattern">
+        android:background="#FFF"
+        android:orientation="vertical">
 
         <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             app:tabGravity="fill"
-            app:tabMode="fixed"
-            android:id="@+id/tablayout_id"
-            app:tabTextColor="#FFF"
             app:tabIndicatorColor="@color/Coral"
             app:tabIndicatorHeight="4dp"
+            app:tabMode="fixed"
             app:tabSelectedTextColor="@color/Coral"
-            android:background="@color/colorPrimary"/>
+            app:tabTextColor="#FFF" />
+
         <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_id"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/viewpager_id"/>
+            android:layout_height="match_parent" />
+
     </LinearLayout>
 </RelativeLayout>

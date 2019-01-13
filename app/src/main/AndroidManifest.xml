@@ -60,6 +60,9 @@
         <activity android:name=".Helplines" />
         <activity android:name=".FOP" />
         <activity android:name=".Members"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="582106ea3f846ad9644dae78b21fa116e2c9ddce" />
     </application>
 
 

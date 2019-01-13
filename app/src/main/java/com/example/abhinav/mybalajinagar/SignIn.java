@@ -30,6 +30,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
+
 public class SignIn extends AppCompatActivity {
 
     private static final int RC_SIGN_IN = 234;
@@ -45,7 +46,6 @@ public class SignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
         FirebaseApp.initializeApp(this);
-
         button = findViewById(R.id.sign_in_button);
         progressBar = findViewById(R.id.progress1);
 
@@ -130,5 +130,6 @@ public class SignIn extends AppCompatActivity {
         //starting the activity for result
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
+
 
 }

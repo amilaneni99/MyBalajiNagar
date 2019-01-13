@@ -14,6 +14,7 @@ import android.view.View;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.iid.FirebaseInstanceId;
 
+
 public class Home extends AppCompatActivity {
 
     CardView complaints,messages,fop,helplines;
@@ -27,6 +28,7 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         System.out.println("Home.onCreate: "+FirebaseInstanceId.getInstance().getInstanceId());
+
 
         nv = findViewById(R.id.menu);
 
@@ -134,5 +136,7 @@ public class Home extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 
 }
