@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.abhinav.mybalajinagar">
+    package="com.abhinav.mybalajinagar">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -17,6 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:screenOrientation="portrait"
+            android:configChanges="orientation"
             android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -25,7 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Home" />
+        <activity android:name=".Home"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -35,6 +39,18 @@
             android:name=".MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyTileService"
+            android:enabled="true"
+            android:exported="true"
+            android:label="FOP"
+            android:icon="@drawable/ic_police"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action
+                    android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
 
@@ -54,12 +70,18 @@
 
         <activity
             android:name=".SignIn"
-            android:label="@string/title_activity_sign_in" />
-        <activity android:name=".Complaints" />
-        <activity android:name=".Messages" />
-        <activity android:name=".Helplines" />
-        <activity android:name=".FOP" />
-        <activity android:name=".Members"></activity>
+            android:label="@string/title_activity_sign_in"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Complaints"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Messages"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Helplines"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FOP"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Members"
+            android:screenOrientation="portrait"/>
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="582106ea3f846ad9644dae78b21fa116e2c9ddce" />

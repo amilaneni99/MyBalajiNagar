@@ -20,7 +20,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.abhinav.mybalajinagar"
+        applicationId "com.abhinav.mybalajinagar"
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
@@ -56,5 +56,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.robertlevonyan.view:CustomFloatingActionButton:2.1.1'
 }
 apply plugin: 'com.google.gms.google-services'

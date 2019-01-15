@@ -93,7 +93,8 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 2"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.P. Varadaraj"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="22sp" />
@@ -135,7 +136,8 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 3"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.C. Thangavel"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="22sp" />
@@ -177,7 +179,8 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 4"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.K. Tamizharasu"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="22sp" />
@@ -219,7 +222,8 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 5"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.A. Sadhanandham"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="22sp" />
@@ -261,7 +265,8 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 6"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.R. Raju"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="22sp" />

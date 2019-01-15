@@ -7,11 +7,50 @@
     android:background="@drawable/pattern"
     tools:context=".Helplines">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFF"
         android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ic_fop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/capriola"
+                    android:text="Friends of Police"
+                    android:textAlignment="textStart"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:id="@+id/police"
@@ -30,7 +69,7 @@
                     android:layout_height="50dp"
                     android:layout_gravity="left|center_vertical"
                     android:layout_margin="10dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0.75"
                     android:src="@drawable/ic_policestation" />
 
                 <TextView
@@ -41,7 +80,42 @@
                     android:layout_weight="3"
                     android:fontFamily="@font/capriola"
                     android:text="Ponneri Police Station"
-                    android:textAlignment="center"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/water"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_water_pump" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/capriola"
+                    android:text="Balaji Nagar Motor Incharge"
+                    android:textAlignment="viewStart"
                     android:textColor="#000"
                     android:textSize="21sp" />
 
@@ -65,7 +139,7 @@
                     android:layout_height="50dp"
                     android:layout_gravity="left|center_vertical"
                     android:layout_margin="10dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0.8"
                     android:src="@drawable/ic_policewoman" />
 
                 <TextView
@@ -75,43 +149,8 @@
                     android:layout_margin="5dp"
                     android:layout_weight="3"
                     android:fontFamily="@font/capriola"
-                    android:text="Women's Police Station"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="21sp" />
-
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/fop"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:weightSum="4">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="left|center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/ic_fop" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="5dp"
-                    android:layout_weight="3"
-                    android:fontFamily="@font/capriola"
-                    android:text="Friends of Police"
-                    android:textAlignment="center"
+                    android:text="Women's Helpline"
+                    android:textAlignment="viewStart"
                     android:textColor="#000"
                     android:textSize="21sp" />
 
@@ -135,7 +174,7 @@
                     android:layout_height="50dp"
                     android:layout_gravity="left|center_vertical"
                     android:layout_margin="10dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0.6"
                     android:src="@drawable/ic_firefighter" />
 
                 <TextView
@@ -146,7 +185,184 @@
                     android:layout_weight="3"
                     android:fontFamily="@font/capriola"
                     android:text="Ponneri Fire Station"
-                    android:textAlignment="center"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/rpf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_policeman" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/capriola"
+                    android:text="Railway Protection Force"
+                    android:textAlignment="textStart"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/gh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.6"
+                    android:src="@drawable/ic_hospital" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/capriola"
+                    android:text="Ponneri Govt. Hospital"
+                    android:textAlignment="textStart"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/eb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.6"
+                    android:src="@drawable/ic_flash" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/capriola"
+                    android:text="Ponneri EB Sub-Station"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/taluk_office"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ic_government_buildings" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/capriola"
+                    android:text="Ponneri Taluk Office"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/rly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.6"
+                    android:src="@drawable/ic_train_station" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/capriola"
+                    android:text="Ponneri Railway Station"
+                    android:textAlignment="viewStart"
                     android:textColor="#000"
                     android:textSize="21sp" />
 
@@ -155,5 +371,6 @@
 
 
     </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

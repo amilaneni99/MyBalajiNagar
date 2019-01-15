@@ -45,7 +45,7 @@
                             android:text="Mr. D. Dhanushkodi"
                             android:textAlignment="center"
                             android:textColor="#000"
-                            android:textSize="21sp" />
+                            android:textSize="22sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -94,10 +94,11 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 2"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.N. Sugumaran"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="23sp" />
+                        android:textSize="22sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -136,10 +137,11 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 3"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.J. Anburaj"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="23sp" />
+                        android:textSize="22sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -178,10 +180,11 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 4"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.N. Jayapalan"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="23sp" />
+                        android:textSize="22sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -220,10 +223,11 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 5"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.M. Mahalingam"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="23sp" />
+                        android:textSize="22sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -262,10 +266,11 @@
                         android:layout_centerVertical="false"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
-                        android:text="Person 6"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.A. Sakthivel"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="23sp" />
+                        android:textSize="22sp" />
 
                     <View
                         android:layout_width="0dp"

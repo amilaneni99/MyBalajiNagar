@@ -28,7 +28,26 @@
         <android.support.v4.view.ViewPager
             android:id="@+id/viewpager_id"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent" >
+
+        </android.support.v4.view.ViewPager>
+
     </LinearLayout>
+
+    <com.robertlevonyan.views.customfloatingactionbutton.FloatingActionButton
+        android:id="@+id/custom_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        app:fabIcon="@drawable/phone"
+        app:fabText="helpline"
+        app:fabTextColor="#000"
+        app:fabElevation="10dp"
+        app:fabColor="@color/salmon"
+        app:fabTextAllCaps="true"/>
 
 </RelativeLayout>
