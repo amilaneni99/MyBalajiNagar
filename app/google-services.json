@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "280466018350-mbipajsrlgl3b5dbjr77p146ksvgunri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhinav.mybalajinagar",
+            "certificate_hash": "0488d7502f46ebe43d62729b08bfd7e9d90fbfc5"
+          }
+        },
+        {
           "client_id": "280466018350-rr3lh62jd9tf089td8p51brksvfectqu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -23,47 +31,19 @@
           }
         },
         {
-          "client_id": "280466018350-b93ig0hk3idqo15d3q6umm7k0qddpgbk.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCJ26hbz8jdzQO3I2-_WmUO_zZSxV1nIxA"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "280466018350-rqrcvaejmaa7gvi3djiol96eh0c7ie88.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:280466018350:android:33f2fca118180c10",
-        "android_client_info": {
-          "package_name": "com.example.abhinav.mybalajinagar"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "280466018350-einp5back3tioabs7s9it6qthllr5ldl.apps.googleusercontent.com",
+          "client_id": "280466018350-14vums9tf0as2u65a27aghsfulfm1aji.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.abhinav.mybalajinagar",
-            "certificate_hash": "5a2b540f9ed8bfecee9a94a4d79f003f8a8e098d"
+            "package_name": "com.abhinav.mybalajinagar",
+            "certificate_hash": "6a66df59158dff5e5db71761fb84eb969805f47f"
+          }
+        },
+        {
+          "client_id": "280466018350-kvctefum7pajsffgs8vrqdhph6os6f4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhinav.mybalajinagar",
+            "certificate_hash": "e536ddac5467f47c0473b296ccbbea98870c89d9"
           }
         },
         {

@@ -43,7 +43,7 @@ public class MyNotificationManager {
          *  But for your project you can customize it as you want
          * */
 
-        Intent resultIntent = new Intent(mCtx, Home.class);
+        Intent resultIntent = new Intent(mCtx, Messages.class);
 
         /*
          *  Now we will create a pending intent

@@ -21,7 +21,7 @@ public class Complaints extends AppCompatActivity implements AdapterView.OnItemS
     private String item;
 
     private Spinner spinner;
-    private static final String[] paths = {"Select Street","Periyar Street", "Kamarajar Street", "Kambar Street","Vu Ve Sa Street","Muvendar Street","Avvai Street","Gandhi Street","Bharathi Salai","Velavan Nagar","Muthamizh Street","Singaravelar Street","Elango Street","Vivekanandar Street","Dr. Ambedkar Street","Annai Therasa Sreet","Bhagat Singh Street","Kalpana Chawla Street","Dr. M.S. Swaminathan Street","Thiruvalluvar Street","Kumaran Street","Dr. Abdul Kalam Street","Jansi Rani Street","Vallalar Street","Bharadhidhasan Street","Mullai Street","Thendral Street","Nethaji Street","Kavimani Street","Anbu Street","Nehru Street","Anna Street"};
+    private static final String[] paths = {"Select Street","Dr. Abdul Kalam Street","Dr. Ambedkar Street","Anbu Street","Anna Street","Annai Therasa Sreet","Avvai Street","Bhagat Singh Street","Bharadhidhasan Street","Bharathi Nagar","Bharathi Salai","Elango Street","Gandhi Street","Jansi Rani Street","Kalpana Chawla Street", "Kamarajar Street", "Kambar Street","Kavimani Street","Kumaran Street","Mullai Street","Muthamizh Street", "Muvendar Street","Nehru Street","Nethaji Street","Periyar Street","Singaravelar Street","Dr. M.S. Swaminathan Street","Thendral Street","Thiruvalluvar Street","Vallalar Street","Velavan Nagar","Vivekanandar Street", "Vu Ve Sa Street"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

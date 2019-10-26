@@ -172,7 +172,7 @@
                         android:text="Mrs.T.Kuttiyammal Tamilarasu"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="17sp" />
+                        android:textSize="16sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -300,10 +300,10 @@
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
                         android:fontFamily="@font/capriola"
-                        android:text="Mrs. B. Selvi Balasubramani"
+                        android:text="Mrs.B.Selvi Balasubramani"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="18sp" />
+                        android:textSize="17sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -346,7 +346,7 @@
                         android:text="Mrs. Latha Padmanabhan "
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="18sp" />
+                        android:textSize="17sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -601,7 +601,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
                         android:fontFamily="@font/capriola"
-                        android:text="Mr. G. Mariyappan"
+                        android:text="Mr.K.G. Mariyappan"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="18sp" />
@@ -699,6 +699,48 @@
 
                     <ImageView
                         android:id="@+id/call16"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_call_answer" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/m_17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerVertical="false"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/capriola"
+                        android:text="Mr.V. Venkateshwaran"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/call17"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_alignParentEnd="true"

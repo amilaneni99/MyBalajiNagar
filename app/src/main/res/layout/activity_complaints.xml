@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pattern"
+    android:background="#efefef"
     tools:context=".Complaints">
     <ScrollView
         android:layout_width="match_parent"
@@ -100,9 +100,10 @@
             android:layout_marginBottom="8dp"
             android:background="#FFF"
             android:cursorVisible="true"
+            android:gravity="top"
             android:hint="Enter the Message"
             android:inputType="text|textMultiLine"
-            android:lines="10"
+            android:lines="5"
             android:maxLines="10"
             android:padding="20dp"
             android:textColor="#000"

@@ -21,6 +21,10 @@
         android:icon="@drawable/ic_members"
         android:title="Members"/>
     <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/ic_gallery"
+        android:title="Gallery"/>
+    <item
         android:id="@+id/signout"
         android:icon="@drawable/ic_exit"
         android:title="Sign Out"/>

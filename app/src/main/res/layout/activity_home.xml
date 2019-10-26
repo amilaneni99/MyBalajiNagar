@@ -5,7 +5,7 @@
     android:id="@+id/drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pattern"
+    android:background="#efefef"
     tools:context=".Home">
 
     <LinearLayout
@@ -196,7 +196,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/contact"
+                android:id="@+id/gallery"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -226,7 +226,7 @@
                             android:layout_marginTop="30dp"
                             android:layout_marginRight="15dp"
                             android:alpha="1"
-                            android:src="@drawable/complaint" />
+                            android:src="@drawable/ic_gallery" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -235,7 +235,7 @@
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="10dp"
                             android:fontFamily="@font/capriola"
-                            android:text="Complaints"
+                            android:text="Gallery"
                             android:textColor="#000"
                             android:textSize="20sp" />
                     </LinearLayout>

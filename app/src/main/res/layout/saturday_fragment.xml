@@ -45,7 +45,7 @@
                             android:text="Mr. P. G. Gunaseelan"
                             android:textAlignment="center"
                             android:textColor="#000"
-                            android:textSize="22sp" />
+                            android:textSize="19sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
                             android:layout_margin="5dp"
                             android:text="Incharge"
                             android:textColor="#000"
-                            android:textSize="16dp" />
+                            android:textSize="15sp" />
                     </LinearLayout>
 
                     <View
@@ -97,7 +97,7 @@
                         android:text="Mr.K. Dilipkumar"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -140,7 +140,7 @@
                         android:text="Mr.H. Gajendran"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -180,10 +180,10 @@
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
                         android:fontFamily="@font/capriola"
-                        android:text="Mr.G. Harikrishna"
+                        android:text="Mr.G. Harikrishnan"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -226,7 +226,7 @@
                         android:text="Mr.K.G. Mariappan"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -269,7 +269,7 @@
                         android:text="Mr.G. Murali"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -312,7 +312,7 @@
                         android:text="Mr.R. Padmanabhan"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -355,7 +355,7 @@
                         android:text="Mr.A. Satheeskannan"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -398,7 +398,7 @@
                         android:text="Mr.P. Satishkumar"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -441,7 +441,7 @@
                         android:text="Mr.C. Shanmugam"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"

@@ -18,9 +18,12 @@ import android.view.ViewGroup;
 
 import com.abhinav.mybalajinagar.R;
 
+import libs.mjn.prettydialog.PrettyDialog;
+import libs.mjn.prettydialog.PrettyDialogCallback;
+
 public class Fragment_Thursday extends Fragment {
     View view;
-    CardView c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11;
+    CardView c1,c2,c3,c4,c5,c6,c7,c8,c9,c10;
 
     public Fragment_Thursday() {
 
@@ -40,71 +43,340 @@ public class Fragment_Thursday extends Fragment {
         c8 = view.findViewById(R.id.eight);
         c9 = view.findViewById(R.id.nine);
         c10 = view.findViewById(R.id.ten);
-        c11 = view.findViewById(R.id.eleven);
         c1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9629939992");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9629939992");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
             }
         });
         c2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9842518968");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9842518968");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
             }
         });
         c3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9492335854");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9492335854");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
             }
         });
         c4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9840548389");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9840548389");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
+
             }
         });
         c5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9600860123");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9600860123");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
+
             }
         });
         c6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9786024588");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9786024588");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
+
             }
         });
         c7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("8012494885");
+
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("8012494885");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
             }
         });
         c8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9841436442");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9841436442");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
             }
         });
         c9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9840675875");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9840675875");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
+
             }
         });
         c10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                call("9791817935");
-            }
-        });
-        c11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                call("9600860123");
+                final PrettyDialog pDialog = new PrettyDialog(getContext());
+                pDialog
+                        .setTitle("My Balaji Nagar")
+                        .setMessage("Are you sure you want to call?")
+                        .addButton(
+                                "Confirm",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_green,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        call("9791817935");
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .addButton(
+                                "Cancel",
+                                R.color.pdlg_color_white,
+                                R.color.pdlg_color_red,
+                                new PrettyDialogCallback() {
+                                    @Override
+                                    public void onClick() {
+                                        pDialog.dismiss();
+                                    }
+                                }
+                        )
+                        .show();
+
             }
         });
         return view;

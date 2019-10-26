@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pattern"
+    android:background="#efefef"
     tools:context=".Helplines">
 
     <ScrollView
@@ -100,7 +100,7 @@
                 android:weightSum="4">
 
                 <ImageView
-                    android:layout_width="60dp"
+                    android:layout_width="40dp"
                     android:layout_height="50dp"
                     android:layout_gravity="left|center_vertical"
                     android:layout_margin="10dp"
@@ -114,7 +114,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="3"
                     android:fontFamily="@font/capriola"
-                    android:text="Balaji Nagar Motor Incharge"
+                    android:text="Balaji Nagar Water Supply"
                     android:textAlignment="viewStart"
                     android:textColor="#000"
                     android:textSize="21sp" />
@@ -135,7 +135,7 @@
                 android:weightSum="4">
 
                 <ImageView
-                    android:layout_width="40dp"
+                    android:layout_width="30dp"
                     android:layout_height="50dp"
                     android:layout_gravity="left|center_vertical"
                     android:layout_margin="10dp"
@@ -170,7 +170,7 @@
                 android:weightSum="4">
 
                 <ImageView
-                    android:layout_width="40dp"
+                    android:layout_width="30dp"
                     android:layout_height="50dp"
                     android:layout_gravity="left|center_vertical"
                     android:layout_margin="10dp"

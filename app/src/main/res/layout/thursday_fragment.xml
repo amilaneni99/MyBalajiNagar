@@ -45,7 +45,7 @@
                             android:text="Mr. K. Balasubramani"
                             android:textAlignment="center"
                             android:textColor="#000"
-                            android:textSize="22sp" />
+                            android:textSize="19sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
                         android:text="Mr.P. Meiyappan"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -141,7 +141,7 @@
                         android:text="Mr.V. Venkateshwaran"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -184,7 +184,7 @@
                         android:text="Mr.A. Sreedhar"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -227,7 +227,7 @@
                         android:text="Mr.M. Kamalakannan"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -267,10 +267,10 @@
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
                         android:fontFamily="@font/capriola"
-                        android:text="Mr.G. Sugumar"
+                        android:text="Mr.G. Sukumar"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -313,7 +313,7 @@
                         android:text="Mr. Kandasamy"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -356,7 +356,7 @@
                         android:text="Mr.M. Nandhakumar"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -399,7 +399,7 @@
                         android:text="Mr.K. Thiyagarajan"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -442,7 +442,7 @@
                         android:text="Mr.J. Antony"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="22sp" />
+                        android:textSize="19sp" />
 
                     <View
                         android:layout_width="0dp"
@@ -451,49 +451,6 @@
 
                     <ImageView
                         android:id="@+id/call10"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_alignParentEnd="true"
-                        android:layout_centerVertical="true"
-                        android:layout_margin="10dp"
-                        android:src="@drawable/ic_call_answer" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/eleven"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:layout_weight="1">
-
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentBottom="true"
-                        android:layout_centerVertical="false"
-                        android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
-                        android:fontFamily="@font/capriola"
-                        android:text="Mr.M. Ganapathi"
-                        android:textAlignment="center"
-                        android:textColor="#000"
-                        android:textSize="22sp" />
-
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:layout_weight="1" />
-
-                    <ImageView
-                        android:id="@+id/call11"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_alignParentEnd="true"

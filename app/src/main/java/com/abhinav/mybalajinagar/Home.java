@@ -17,7 +17,7 @@ import com.google.firebase.iid.FirebaseInstanceId;
 
 public class Home extends AppCompatActivity {
 
-    CardView complaints,messages,fop,helplines;
+    CardView gallery,messages,fop,helplines;
     private DrawerLayout dl;
     private ActionBarDrawerToggle t;
     private NavigationView nv;
@@ -38,7 +38,7 @@ public class Home extends AppCompatActivity {
         fop = findViewById(R.id.fop);
         messages = findViewById(R.id.notifications);
         helplines = findViewById(R.id.helplines);
-        complaints = findViewById(R.id.contact);
+        gallery = findViewById(R.id.gallery);
         dl = (DrawerLayout)findViewById(R.id.drawer);
         t = new ActionBarDrawerToggle(this, dl,R.string.Open, R.string.Close);
 
@@ -52,10 +52,10 @@ public class Home extends AppCompatActivity {
 
 
 
-        complaints.setOnClickListener(new View.OnClickListener() {
+        gallery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Home.this,Complaints.class));
+                startActivity(new Intent(Home.this,Gallery.class));
             }
         });
 
@@ -111,6 +111,12 @@ public class Home extends AppCompatActivity {
                 else if(id == R.id.events)
                 {
                     Intent intent = new Intent(Home.this,Members.class);
+                    startActivity(intent);
+                    return true;
+                }
+                else if(id == R.id.gallery)
+                {
+                    Intent intent = new Intent(Home.this,Gallery.class);
                     startActivity(intent);
                     return true;
                 }

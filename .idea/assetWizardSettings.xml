@@ -64,11 +64,25 @@
                   <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="jar:file:/D:/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_navigate_next_black_24dp.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                         <option name="values">
                           <map>
-                            <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_train_station" />
-                            <entry key="sourceFile" value="C:\Users\Abhinav\Downloads\train-station.svg" />
+                            <entry key="outputName" value="next" />
+                            <entry key="sourceFile" value="E:\gallery.svg" />
                           </map>
                         </option>
                       </PersistentState>
